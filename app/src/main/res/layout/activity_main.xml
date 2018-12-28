@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/test"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+
+        <com.example.headshadowview.ShadowView
+            android:id="@+id/iv_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            app:shadow_size="67dp"
+            app:shadow_color="@color/color_6C62F5x"
+            app:shadow_bg_color="@color/color_6C62F5"/>
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
